@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://api.openweathermap.org";
+const BASE_URL = "https://api.openweathermap.org";
 
 export async function fetchForecast(cityName) {
   const url = `${BASE_URL}/data/2.5/forecast`;
